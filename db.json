@@ -1,0 +1,30 @@
+{
+  "productos": [
+    {
+      "id": "mxeBFV604xI",
+      "nombre": "celular",
+      "precio": "300000"
+    },
+    {
+      "id": "jyf5otU80M",
+      "nombre": "celular",
+      "precio": "5000"
+    },
+    {
+      "id": "wfd2iVaAngg",
+      "nombre": "carro",
+      "precio": "60000"
+    },
+    {
+      "id": "xQAEJ_SbGhc",
+      "nombre": "celular",
+      "precio": "200000"
+    },
+    {
+      "id": "0WEz5aJa4_4",
+      "nombre": "carro",
+      "precio": "6000000"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

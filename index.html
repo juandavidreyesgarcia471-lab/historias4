@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Productos</title>
+
+    <!-- Conexion CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Titulo -->
+    <h1>Lista de Productos</h1>
+
+    <!-- Formulario -->
+    <form id="formulario">
+
+        <input 
+            type="text"
+            id="nombre"
+            placeholder="Nombre del producto"
+        >
+
+        <input
+            type="number"
+            id="precio"
+            placeholder="Precio"
+        >
+
+        <button type="submit">
+            Agregar
+        </button>
+
+    </form>
+
+    <!-- Mensajes -->
+    <p id="mensaje" class="mensaje"></p>
+
+    <!-- Lista -->
+    <ul id="lista"></ul>
+
+    <!-- Boton API -->
+    <button id="btnApi">
+        Sincronizar API
+    </button>
+
+    <!-- Conexion JS -->
+    <script src="app.js"></script>
+
+</body>
+</html>
+
